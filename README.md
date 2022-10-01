@@ -1,2 +1,2 @@
 # LIFE-WARRIORS
-EDUCATIONAL SITE
+https://mdislamnishatnayeem.github.io/LIFE-WARRIORS/
