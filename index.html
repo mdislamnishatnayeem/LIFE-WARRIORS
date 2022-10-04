@@ -476,6 +476,15 @@ let audio_iframe =document.getElementById("iframeAudio");
 widget = SC.Widget(audio_iframe);
 widget.setVolume(0.9);
 
+
+
+document.addEventListener('click', musicPlay);
+function musicPlay() {
+    document.getElementById('iframeAudio').play();
+    document.removeEventListener('click', musicPlay);
+}
+
+
 </script>
 </body>
 </html>
